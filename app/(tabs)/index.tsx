@@ -7,7 +7,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>MCB Instrumentos</Text>
-      <Button title="Controle de Vendas" onPress={() => router.push('/vendas')} />
+      <Button title="Controle de Vendas" onPress={() => router.push('/venda')} />
       <Button title="Controle de Estoque" onPress={() => router.push('/estoque')} />
       <Button title="Relatórios" onPress={() => router.push('/relatorios')} />
     </View>
