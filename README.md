@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# 📱 MCB Instrumentos – App de Controle de Vendas e Estoque
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um aplicativo mobile desenvolvido para **MCB Instrumentos**, com o objetivo de facilitar o **controle de estoque**, **registro de vendas** e **geração de relatórios**, de forma simples e eficiente.
 
-## Get started
+Desenvolvido com **React Native** e **Expo**, o app funciona em dispositivos Android e pode ser facilmente adaptado para iOS.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Funcionalidades
 
-2. Start the app
+- 📦 **Estoque**  
+  - Cadastro, listagem e edição de produtos  
+  - Filtro por nome e categoria  
+  - Atualização automática ao realizar uma venda  
+  - Armazenamento local
 
-   ```bash
-   npx expo start
-   ```
+- 💰 **Vendas**  
+  - Registro de vendas com seleção do produto e quantidade  
+  - Validação de estoque antes de vender  
+  - Registro automático de movimentações
 
-In the output, you'll find options to open the app in a
+- 📊 **Relatórios** *(em desenvolvimento)*  
+  - Resumo de movimentações (entradas e saídas)  
+  - Informações úteis para gestão do negócio
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 💻 Tecnologias Utilizadas
 
-## Get a fresh project
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) – para persistência local
+- [Expo Router](https://expo.github.io/router/) – para gerenciamento de rotas
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## ▶️ Como Rodar o Projeto
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Pré-requisitos:
+- Node.js
+- Expo CLI:
+  ```bash
+  npm install -g expo-cli
